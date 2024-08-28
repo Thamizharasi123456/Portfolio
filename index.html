@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Portfolio</a>
+                </div>
+                
+               <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="#sk">Skills</a></li>
+                <li><a href="#prh">Projects</a></li>
+                <li><a href="#con">Contact</a></li>
+               </ul>
+               <div class="menu">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+               </div>      
+            </nav>
+        </header>
+        <div class="container">
+            <div id="img">
+                <img src="thamizharasi.jfif" alt="" width="250px" height="250px">
+            </div>
+            <div id="about">
+                <h1>Hi,I am</h1>
+                <h1>Thamizharasi S</h1>
+                <h2>I am a Full Stack Developer</h2>
+                <h3 id="abouth3">I'm a skilled Front-End and back-end Development with a passion for creating interactive and visually engaging websites. I blend design and technology to create seamless user experiences.</p>
+                <div><a href="thamizhresume.pdf"><button id="button">Check Resume</button></a> </div>  
+             </div>
+        </div>
+        <h1 id="sk">Skills</h1>
+        <p id="skp">Here are some of my skills on which I have learnt. </p>
+        <div class="skills">
+            <div id="front">
+               <div id="html">
+                <img src="html.png" alt="" height="20px" width="20px"><p>HTML</p>
+               </div>
+               <div id="html">
+                <img src="css.png" alt="" height="20px" width="20px"><p>CSS</p>
+               </div>
+               <div id="html">
+                <img src="js.png" alt="" height="20px" width="20px"><p>Javascript</p>
+               </div>
+               <div id="html">
+                <img src="bootstrap.svg" alt="" height="20px" width="20px"><p>Boostrap</p>
+               </div>
+            </div>
+            <div id="others">
+                <div id="other">
+                    <img src="sql.jpg" alt="" height="30px" width="40px"><p>SQL</p>
+                   </div>
+                <div id="other">
+                    <img src="vs.jpg" alt="" height="20px" width="20px"><p>VS Code</p>
+                   </div>
+                   <div id="other">
+                    <img src="github.png" alt="" height="20px" width="20px"><p>Github</p>
+                   </div>
+
+                   <div id="other">
+                    <img src="canva.jpg" alt="" height="20px" width="20px"><p>Canva</p>
+                   </div>
+            </div>
+        </div>
+        <h1 id="prh">Projects</h1>
+         <div class="projects">
+            <div id="pr1">
+              <a href="https://myfirstspicyhut.000webhostapp.com/" target="_blank"><img src="spicyhut.jpg" alt="" height="300px" width="300px"></a>
+              <div id="h3"><h3>HTML</h3>
+              <h3>CSS</h3> </div>            
+              <h2 style="color: red;">Spicy Hut</h2>
+              <b><h3>2023</h3></b>
+              <p>Spicy Hut is an impressive showcase of my HTML,CSS and javascript. Spicy hut is fully responsive website.</p>
+            </div>
+            <div id="pr2">
+                <a href="https://Ragavan-25.github.io/calculator/" target="_blank"><img src="calc.jpg" alt="" height="300px" width="290px"></a>
+                <div id="h3"><h3>HTML</h3>
+                <h3>CSS</h3>
+                <h3>Javascript</h3>
+            </div>      
+                <h2 style="color: red;">Calculator</h2>
+                <h3>2023</h3>
+                <p>This calculator is a web that performs mathematical calculations. </p>
+            </div>
+            <div id="pr3">
+                <a href="https://ragavan-25.github.io/Landing-page/" target="_blank"><img src="fsd.png" alt="" height="300px" width="300px"></a>
+                <div id="h3"><h3>HTML</h3>
+                <h3>CSS</h3>
+                <h3>JavaScript</h3>
+            </div>   
+
+                <h2 style="color: red;">Landing page</h2>
+                <b><h3>2024</h3></b>
+                <p>Full stack development Landing page is an impressive showcase of my HTML,CSS and javascript. Landing page is fully responsive website.</p>
+              </div>
+              <div id="pr4">
+                <a href="https://ragavan-25.github.io/TextToSpeech/" target="_blank"><img src="tts.jpg" alt="" height="300px" width="300px"></a>
+                <div id="h3"><h3>HTML</h3>
+                <h3>CSS</h3>
+                <h3>JavaScript</h3>
+            </div>   
+
+                <h2 style="color: red;">Text to Speech</h2>
+                <b><h3>2024</h3></b>
+                <p>Text to speech is a impressive website showcase of my HTML,CSS and javascript.</p>
+              </div>
+         </div>
+        <div class="education">
+
+        </div>
+        <h1 id="incert">Certificates</h1>
+      <div class="certificate">
+        <img src="crt1.jfif" alt="Web Development">
+        <img src="crt2.jfif" alt="Software Engineering Job Simulation">
+        <img src="crt3.jfif" alt="Mobile App Development ">
+
+    </div>
+<div class="form">
+        <h1  id="con">Contact</h1>
+        <p>Feel free to reach out to me for any questions or opportunities!</p>
+        <form action="">
+            <h2>Email Me</h2>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Your Name" required>
+            <input type="number" placeholder="Your Number" required>
+            <input type="textarea" id="msg" placeholder="Message">
+            <button>Send</button> 
+        </form>
+</div>
+
+
+
+
+
+    <div id="footer">
+       <footer>Design|Development by Thamizharasi</footer>
+    </div>
+    <script>
+        const menu=document.querySelector('.menu')
+        const menulist=document.querySelector('nav ul')
+        menu.addEventListener('click',()=>{
+            menulist.classList.toggle('showmenu')
+        })
+    </script>
+</body>
+</html>

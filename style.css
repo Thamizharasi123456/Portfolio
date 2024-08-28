@@ -1,0 +1,409 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin:5px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0px 15px;
+  font-size: 20px;
+}
+
+nav .logo{
+  font-size: 40px;
+}
+nav a{
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav a:hover{
+  color: red;
+}
+
+.menu-line{
+  height: 3px;
+  width: 20px;
+  background-color: darkslateblue;
+  margin-bottom: 3px;
+}
+
+.menu{
+  cursor: pointer;
+  display: none;
+}
+#about{
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  width: auto;
+}
+
+#about p,h2{
+margin-top: 10px;
+}
+
+#abouth3{
+  margin-top: 10px;
+}
+#about #button{
+  background: linear-gradient(crimson,red);
+  padding: 12px;
+  color: white;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 40%;
+  margin-top: 15px; 
+}
+
+#about #button:hover{
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px crimson;
+  border: 1px solid white;
+}
+
+.container{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+flex-wrap: wrap;
+}
+
+.container #img{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container #about{
+  flex: 3;
+}
+
+#sk{
+  text-align: center;
+  color: darkmagenta;
+}
+
+#skp{
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+}
+#front #html{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#front{
+  border: 1px solid black;
+  width: 380px;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+#others{
+  border: 1px solid black;
+  width: 380px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+
+#others #other{
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.skills{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+#prh{
+  color: darkmagenta;
+  text-align: center;
+  margin: 20px;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects #pr1{
+  background-color:white;
+  height: 480px;
+  width: 280px;
+  margin: 30px;
+  padding: 13px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.projects #pr2{
+  background-color:white;
+  height: 480px;
+  width: 280px;
+  margin: 30px;
+  padding: 13px;
+  box-shadow: 0px 0px 10px black;
+}
+.projects #pr3{
+  background-color:white;
+  height: 480px;
+  width: 280px;
+  margin: 30px;
+  padding: 13px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.projects #pr4{
+  background-color:white;
+  height: 480px;
+  width: 280px;
+  margin: 30px;
+  padding: 13px;
+  box-shadow: 0px 0px 10px black;
+}
+.projects #pr1:hover{
+  height: 482px;
+  width: 290px;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0px 0px 20px black;
+}
+
+.projects #pr2:hover{
+  height: 482px;
+  width: 290px;
+  background-color:white;
+  border: 1px solid white;
+  box-shadow:0px 0px 20px black;
+}
+.projects #pr3:hover{
+  height: 482px;
+  width: 290px;
+  background-color:white;
+  border: 1px solid white;
+  box-shadow:0px 0px 20px black;
+}
+
+.projects #pr4:hover{
+  height: 482px;
+  width: 290px;
+  background-color:white;
+  border: 1px solid white;
+  box-shadow:0px 0px 20px black;
+}
+.projects #pr1 #h3{
+  display: flex;
+}
+
+.projects #pr2 #h3{
+  display: flex;
+}
+.projects #pr3 #h3{
+  display: flex;
+}
+
+.projects #pr4 #h3{
+  display: flex;
+}
+.projects #pr1 p{
+  padding: 5px;
+}
+.projects #pr2 p{
+  padding: 2px;
+}
+.projects #pr3 p{
+  padding: 2px;
+}
+
+.projects #pr4 p{
+  padding: 2px;
+}
+#h3 h3{
+  padding: 5px;
+  border: 1px solid crimson;
+  margin: 2px;
+  border-radius: 10px;
+  color: blue;
+}
+
+.projects #pr1 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects #pr2 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects #pr3 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects #pr4 a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#incert{
+  color: darkmagenta;
+  text-align: center;
+  text-shadow:10px;
+}
+
+.certificate{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap
+}
+
+.certificate img{
+  width: 380px;
+  margin:20px;
+}
+
+.form h1,p{
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.form h1{
+  color: darkmagenta;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  width: 360px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px 10px;
+  margin: auto;
+  box-shadow: 0px 0px 12px black;
+  padding: 10px;
+}
+
+form input{
+  display: block;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.form button{
+  color: white;
+  background: linear-gradient(crimson,red);
+  width: 250px;
+  padding: 10px;
+  border: 1px solid crimson;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form #msg{
+  height: 50px;
+}
+
+.form button:hover{
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px crimson;
+  border: 1px solid white;
+}
+#footer{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+@media all and (max-width:550px){
+  nav{
+      flex-direction: column;
+  }
+  nav li{
+      display: block;
+      padding: 10px 0;
+  }
+  
+  ul{
+      text-align: center;
+      padding: 0;
+      display: none;
+  }
+
+  .logo{
+      align-self: flex-start;
+      margin: 10px 0px 0px 30px;
+  }
+
+  .menu{
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 32px;
+  }
+
+  .showmenu{
+      display: block;
+  }
+}
+
